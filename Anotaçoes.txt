@@ -1,0 +1,19 @@
+Formatando Strings
+Var S = 'JavaScript
+
+s.length // quantos caracteres a string tem
+s.toUpperCase() // tudo para Maiusculas
+s.toLowerCase() // tudo para minusculas
+
+// Quando for usar o template string sempre usar a crase ``
+
+ var n1 = 1555.5
+undefined
+ n1.toFixed
+[Function: toFixed]
+ n1.toFixed(2) // função para fixar 2 casas decimais.
+'1555.50'
+ n1.toFixed(2).replace('.' , ',') //funçao de mudar ponto por virgula. por conta da norma brasileira.
+'1555,50'
+
+n1.toLocaleSring('pt-BR', {style: 'currrency', currency: 'BRL'}) função para colocar a MOEDA BRL,USD, EUR
